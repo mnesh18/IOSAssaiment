@@ -17,6 +17,8 @@
 		7E65A1CC272DF0A300A1868E /* MunaToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65A1CB272DF0A300A1868E /* MunaToDoListUITests.swift */; };
 		7E65A1CE272DF0A300A1868E /* MunaToDoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65A1CD272DF0A300A1868E /* MunaToDoListUITestsLaunchTests.swift */; };
 		7E65A1DC272DF0DC00A1868E /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E65A1DA272DF0DC00A1868E /* ToDoList.xcdatamodeld */; };
+		7E65A1DE272DF51500A1868E /* TodoItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65A1DD272DF51500A1868E /* TodoItemTableViewCell.swift */; };
+		7E65A1E0272DF54700A1868E /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E65A1DF272DF54700A1868E /* NewItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		7E65A1CB272DF0A300A1868E /* MunaToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunaToDoListUITests.swift; sourceTree = "<group>"; };
 		7E65A1CD272DF0A300A1868E /* MunaToDoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunaToDoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7E65A1DB272DF0DC00A1868E /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
+		7E65A1DD272DF51500A1868E /* TodoItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemTableViewCell.swift; sourceTree = "<group>"; };
+		7E65A1DF272DF54700A1868E /* NewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,6 @@
 		7E65A19E272DF09D00A1868E = {
 			isa = PBXGroup;
 			children = (
-				7E65A1DA272DF0DC00A1868E /* ToDoList.xcdatamodeld */,
 				7E65A1A9272DF09D00A1868E /* MunaToDoList */,
 				7E65A1C0272DF0A300A1868E /* MunaToDoListTests */,
 				7E65A1CA272DF0A300A1868E /* MunaToDoListUITests */,
@@ -106,6 +109,9 @@
 				7E65A1AC272DF09D00A1868E /* SceneDelegate.swift */,
 				7E65A1AE272DF09D00A1868E /* ViewController.swift */,
 				7E65A1B0272DF09D00A1868E /* Main.storyboard */,
+				7E65A1DD272DF51500A1868E /* TodoItemTableViewCell.swift */,
+				7E65A1DF272DF54700A1868E /* NewItemViewController.swift */,
+				7E65A1DA272DF0DC00A1868E /* ToDoList.xcdatamodeld */,
 				7E65A1B3272DF0A200A1868E /* Assets.xcassets */,
 				7E65A1B5272DF0A200A1868E /* LaunchScreen.storyboard */,
 				7E65A1B8272DF0A200A1868E /* Info.plist */,
@@ -261,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E65A1DE272DF51500A1868E /* TodoItemTableViewCell.swift in Sources */,
 				7E65A1AF272DF09D00A1868E /* ViewController.swift in Sources */,
+				7E65A1E0272DF54700A1868E /* NewItemViewController.swift in Sources */,
 				7E65A1AB272DF09D00A1868E /* AppDelegate.swift in Sources */,
 				7E65A1AD272DF09D00A1868E /* SceneDelegate.swift in Sources */,
 				7E65A1DC272DF0DC00A1868E /* ToDoList.xcdatamodeld in Sources */,
